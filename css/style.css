@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root{
+
+    /* |||||||||| Color ||||||||||| */
+
+    /* Primary-color*/
+
+      --d-cyan: hsl(185, 75%, 39%);/* (Dark cyan) */
+      --d-blue: hsl(229, 23%, 23%);/* (Very dark desaturated blue) */
+      --d-g-blue: hsl(227, 10%, 46%);/* (Dark grayish blue) */
+
+    /* Neutral-color */
+
+     --d-gray: hsl(0, 0%, 59%);/* (Dark gray) */
+
+    /* ||||||||||| Typography |||||||||||| */
+
+    --fSize:18px;
+    --FF:'Kumbh Sans', sans-serif;
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    line-height: 1.6;
+    background-color: var(--d-cyan);
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: -35rem -45rem,  10rem 15rem;
+    
+    /* background-image: url('../images/bg-pattern-bottom.svg');
+ */
+}
+h1{
+    font-size: 1.27rem;
+    font-weight: 700;
+    color: var(--d-blue);
+}
+h2{
+    font-size: 1.17rem;
+    font-weight: 700;
+    color: var(--d-blue);
+}
+p{
+    font-weight: 400;
+    font-size: 0.95rem;
+    color:var(--d-g-blue);
+}
+span{
+    font-weight: 400;
+    color:var(--d-g-blue); 
+}
+.container{
+    width: 20.5rem;
+    overflow: hidden;
+    border-radius: 0.75rem;
+    font-family: var(--FF);
+    background-color: #fff;
+}
+
+.container .heroImg img{
+   width: 21rem; 
+}
+.container .heroInfo{
+    position: relative;
+    padding-top: 4.1rem;
+}
+.container .heroInfo .profile-pic{
+    position: absolute;
+    top: -3.9rem;
+    left: 7rem;
+    overflow: hidden;
+}
+.container .heroInfo .profile-pic img{
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+.container .line{
+    width: 100%;
+    height: 0.1px;
+    background-color:hsla(0, 0%, 59%, 0.493);
+    margin-top: 1.2rem;
+}
+.container .box{
+    padding-top: 1.2rem;
+    padding-bottom: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container .box p{
+    font-size: 0.7rem;
+    letter-spacing: 0.055rem;
+}
+
+
+@media screen and (min-width:765px){
+
+    body{
+        background-position: -40rem -20rem,  20rem 20rem;
+    }
+}
+
+@media screen and (min-width:900px){
+
+    body{
+        background-position: -5rem -40rem,  45rem 30rem;
+    }
+
+    h1{
+        font-size: 1.4rem;
+    }
+    h2{
+        font-size: 1.4rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+    .container{
+        min-width: 25rem;
+    }
+    .container .heroImg img{
+        min-width: 25.5rem; 
+     }
+     .container .heroInfo .profile-pic{
+        left: 9.2rem;
+     }
+     .container .box p{
+        font-size: 0.9rem;
+    }
+    .container .line{
+        margin-top: 3rem;
+    }
+    .container .box{
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+}
