@@ -13,11 +13,11 @@
 ### ScreenShot
 Desktop view:
 
-![]()
+![](https://github.com/manujayakumar/profile-card-component-main/blob/main/screenshot/desktop-view.PNG)
 
 Mobile view:
 
-![]()
+![](https://github.com/manujayakumar/profile-card-component-main/blob/main/screenshot/mobile-view.PNG)
 ### Links
 - Solution URL: [Frontend Mentor Solution]()
 - Live Site URL: [Live Site at Vercel](https://profile-card-component-main-neon.vercel.app/)
@@ -26,7 +26,7 @@ Mobile view:
 - Semantic HTML5 markup
 - Flexbox
 - Grid
-- Transform property
+- Background property
 - Responsive Design
 ### What I learned
 I have learn how to position div. center using both Flexbox, Grid with their property, used background property to manage two images in the background and make content responsive. 
