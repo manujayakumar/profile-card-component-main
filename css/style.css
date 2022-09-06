@@ -38,7 +38,7 @@ body{
     background-color: var(--d-cyan);
     background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
     background-repeat: no-repeat, no-repeat;
-    background-position: -35rem -45rem,  10rem 15rem;
+    background-position: -35rem -45rem,  15rem 15rem;
     
     /* background-image: url('../images/bg-pattern-bottom.svg');
  */
@@ -117,7 +117,7 @@ span{
 @media screen and (min-width:900px){
 
     body{
-        background-position: -5rem -40rem,  45rem 30rem;
+        background-position: -12rem -30rem,  50rem 20rem;
     }
 
     h1{
