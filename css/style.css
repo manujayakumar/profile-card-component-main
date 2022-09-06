@@ -68,6 +68,7 @@ span{
     border-radius: 0.75rem;
     font-family: var(--FF);
     background-color: #fff;
+    box-shadow: 5px 5px 12px 3px rgb(0 0 0 / 4%);;
 }
 
 .container .heroImg img{
