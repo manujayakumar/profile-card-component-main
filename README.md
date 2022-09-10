@@ -19,7 +19,7 @@ Mobile view:
 
 ![](https://github.com/manujayakumar/profile-card-component-main/blob/main/screenshot/mobile-view.PNG)
 ### Links
-- Solution URL: [Frontend Mentor Solution]()
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/profile-card-component-main-ciJbGrdMIZ)
 - Live Site URL: [Live Site at Vercel](https://profile-card-component-main-neon.vercel.app/)
 ## My process
 ### Built with
